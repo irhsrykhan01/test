@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#17121b">
+  <meta name="description" content="Sebuah perayaan kecil, dibuat dengan sepenuh hati untuk Bunda.">
+  <title>For Mom — A Birthday Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <canvas id="sparkle-canvas" aria-hidden="true"></canvas>
+
+  <section class="welcome-screen" id="welcome" aria-label="Pembuka kejutan">
+    <div class="welcome-orbit orbit-one"></div><div class="welcome-orbit orbit-two"></div>
+    <div class="welcome-content">
+      <span class="eyebrow light-eyebrow"><i></i> A LITTLE SOMETHING, MADE WITH LOVE</span>
+      <div class="welcome-flower" aria-hidden="true">✿</div>
+      <p class="welcome-kicker">Untuk seseorang yang paling istimewa</p>
+      <h1>A day as beautiful<br>as <em>you.</em></h1>
+      <p class="welcome-copy">Ada sebuah kejutan kecil yang sudah disiapkan khusus untuk Bunda.</p>
+      <button class="button button-gold" id="enter-site">Buka hadiah kecil ini <span>↗</span></button>
+      <span class="welcome-foot">MADE WITH ALL MY HEART · FOR MOM</span>
+    </div>
+  </section>
+
+  <div class="site-shell" id="site-shell">
+    <header class="topbar">
+      <a href="#home" class="brand" aria-label="Kembali ke awal">
+        <span class="brand-mark">F<span>♥</span></span>
+        <span class="brand-name">FOR MOM<small>A BIRTHDAY EXPERIENCE</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navigasi utama">
+        <a href="#story">Cerita</a><a href="#gallery">Galeri</a><a href="#games">Play time</a><a href="#letter">Surat</a>
+      </nav>
+      <button class="music-toggle" id="music-toggle" aria-label="Putar musik" aria-pressed="false">
+        <span class="music-bars"><i></i><i></i><i></i><i></i></span><span id="music-label">Play music</span>
+      </button>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow"><i></i> TODAY IS ALL ABOUT YOU</span>
+          <p class="hero-overline">A celebration of the most beautiful soul</p>
+          <h1>Untuk perempuan<br>yang membuat dunia<br>terasa seperti <em>rumah.</em></h1>
+          <p class="hero-description">Selamat ulang tahun, Bunda. Semoga hari ini dipenuhi hal-hal kecil yang membuat Bunda tersenyum, seperti Bunda yang selalu punya cara membuat hari-hari kami berarti.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#story">Mulai perjalanan <span>↓</span></a>
+            <button class="text-button" id="hero-surprise">Ada kejutan untuk Bunda <span>✧</span></button>
+          </div>
+          <div class="hero-signature"><span class="signature-line"></span><span>with love, always</span></div>
+        </div>
+        <div class="hero-art">
+          <div class="hero-image-frame">
+            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=1100&q=88" alt="Momen hangat bersama keluarga" fetchpriority="high">
+            <div class="image-caption"><span>THE MOST PRECIOUS</span><strong>Moments are made of love.</strong></div>
+          </div>
+          <div class="hero-stamp"><span>♡</span><small>FOREVER<br>GRATEFUL</small></div>
+          <div class="hero-note">you are<br>our sunshine <span>✳</span></div>
+          <div class="hero-deco deco-star">✳</div>
+        </div>
+        <div class="hero-bottom"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>01 — 05</span></div>
+      </section>
+
+      <section class="intro-strip">
+        <div class="strip-inner"><span>♡</span><p>Hari ini bukan hanya tentang bertambahnya usia. Hari ini tentang merayakan seseorang yang begitu berarti.</p><span>♡</span></div>
+      </section>
+
+      <section class="story-section section-wrap section-space" id="story">
+        <div class="section-heading">
+          <div><span class="eyebrow"><i></i> A FEW THINGS TO REMEMBER</span><h2>Hal sederhana,<br><em>cinta yang luar biasa.</em></h2></div>
+          <p>Beberapa hal mungkin terlihat kecil, tetapi justru itulah yang membuat Bunda begitu istimewa.</p>
+        </div>
+        <div class="story-grid">
+          <article class="story-card story-card-large">
+            <div class="story-number">01 / ALWAYS</div><div class="story-icon">⌂</div>
+            <h3>Tempat untuk pulang</h3>
+            <p>Di tengah dunia yang ramai, ada ketenangan yang selalu terasa saat bersama Bunda. Rumah bukan sekadar tempat, tetapi rasa nyaman yang Bunda hadirkan.</p>
+            <span class="card-flower">✿</span>
+          </article>
+          <article class="story-card story-card-dark">
+            <div class="story-number">02 / EVERY DAY</div><div class="story-icon">☼</div>
+            <h3>Kebaikan yang tak pernah habis</h3>
+            <p>Perhatian kecil, nasihat sederhana, dan doa yang tulus. Banyak hal baik tumbuh dari kasih sayang Bunda.</p>
+            <span class="card-sparkle">✧</span>
+          </article>
+          <article class="story-card story-card-image">
+            <img src="https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=900&q=85" alt="Bunga-bunga lembut sebagai simbol kasih sayang" loading="lazy">
+            <div class="image-card-overlay"><span>03 / FOREVER</span><h3>Alasan untuk<br>selalu bersyukur.</h3></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote-section">
+        <div class="quote-mark">“</div>
+        <blockquote>Di antara banyak hal indah di dunia, salah satu yang paling aku syukuri adalah bisa memanggilmu <em>Bunda.</em></blockquote>
+        <span class="quote-caption">A LITTLE NOTE FROM THE HEART</span>
+      </section>
+
+      <section class="gallery-section section-wrap section-space" id="gallery">
+        <div class="section-heading gallery-heading">
+          <div><span class="eyebrow"><i></i> LITTLE MOMENTS, BIG FEELINGS</span><h2>Galeri penuh <em>rasa.</em></h2></div>
+          <div class="gallery-tools"><p>Setiap foto menyimpan cerita. Tambahkan foto kenangan kalian agar halaman ini terasa lebih personal.</p><label class="button button-outline upload-label" for="photo-upload">＋ Tambah foto<input id="photo-upload" type="file" accept="image/*" multiple hidden></label></div>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+          <button class="gallery-item gallery-tall" data-full="https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?auto=format&fit=crop&w=1400&q=90" aria-label="Lihat foto momen keluarga">
+            <img src="https://images.unsplash.com/photo-1492725764893-90b379c2b6e7?auto=format&fit=crop&w=900&q=85" alt="Kehangatan seorang ibu dan anak" loading="lazy"><span class="gallery-overlay">A LOVE THAT FEELS LIKE HOME <b>↗</b></span>
+          </button>
+          <button class="gallery-item" data-full="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=1400&q=90" aria-label="Lihat foto kebersamaan">
+            <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=85" alt="Kebersamaan orang-orang tersayang" loading="lazy"><span class="gallery-overlay">THE BEST KIND OF DAYS <b>↗</b></span>
+          </button>
+          <button class="gallery-item gallery-wide" data-full="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1400&q=90" aria-label="Lihat foto pemandangan">
+            <img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1100&q=85" alt="Cahaya matahari hangat di pagi hari" loading="lazy"><span class="gallery-overlay">A THOUSAND REASONS TO SMILE <b>↗</b></span>
+          </button>
+          <div class="gallery-upload-hint"><span>✧</span><strong>Make it yours.</strong><small>Foto yang kamu tambahkan hanya tampil di perangkat ini.</small></div>
+        </div>
+      </section>
+
+      <section class="music-section section-wrap">
+        <div class="music-card">
+          <div class="music-visual"><div class="vinyl"><div class="vinyl-center">♡</div></div><span class="music-note note-a">♪</span><span class="music-note note-b">♫</span></div>
+          <div class="music-copy"><span class="eyebrow light-eyebrow"><i></i> A SOUNDTRACK FOR THIS MOMENT</span><h2>Satu lagu kecil,<br><em>seribu rasa sayang.</em></h2><p>Putar melodi lembut yang dibuat langsung oleh halaman ini. Atau pilih lagu favorit Bunda dari perangkatmu.</p>
+            <div class="audio-controls"><button class="play-round" id="music-play-inline" aria-label="Putar musik">▶</button><div class="track-info"><strong id="track-title">A Little Piece of Love</strong><span id="track-status">Original ambient melody · instrumental</span><div class="track-progress"><span id="track-progress"></span></div></div><label class="upload-audio" for="audio-upload" title="Pilih musik sendiri">＋<input id="audio-upload" type="file" accept="audio/*" hidden></label></div>
+          </div>
+          <div class="music-side-note">PRESS PLAY<br>AND FEEL THE LOVE</div>
+        </div>
+      </section>
+
+      <section class="games-section section-wrap section-space" id="games">
+        <div class="section-heading">
+          <div><span class="eyebrow"><i></i> A LITTLE PLAYTIME</span><h2>Saatnya bermain,<br><em>Bunda!</em></h2></div>
+          <p>Karena hadiah terbaik bukan cuma untuk dilihat. Ada dua permainan kecil yang bisa dicoba. Siap kumpulkan senyum?</p>
+        </div>
+        <div class="games-grid">
+          <article class="game-card harvest-card">
+            <div class="game-topline"><span>MINI GAME 01</span><span class="game-pill">REFLEX & FUN</span></div>
+            <div class="game-illustration"><span class="floating-petal">✿</span><span class="floating-petal">✧</span><span class="floating-petal">❀</span><div class="game-sun">☼</div></div>
+            <h3>Petal Garden</h3><p>Ketuk kelopak bunga yang bermunculan. Kumpulkan 12 bunga sebelum waktunya habis untuk membuka pesan rahasia!</p>
+            <div class="game-stats"><span>FLOWERS <b id="flower-score">0 / 12</b></span><span>TIME <b id="flower-time">30s</b></span></div>
+            <div class="garden-playfield" id="garden-playfield"><div class="garden-message" id="garden-message">Taman kecil ini menunggumu.<br><strong>Mulai kumpulkan bunga!</strong></div></div>
+            <button class="button button-primary game-start" id="garden-start">Mulai bermain <span>↗</span></button>
+            <p class="game-result" id="garden-result" aria-live="polite"></p>
+          </article>
+          <article class="game-card memory-card">
+            <div class="game-topline"><span>MINI GAME 02</span><span class="game-pill">MEMORY MATCH</span></div>
+            <div class="memory-art"><div class="memory-flower">✿</div><span>♡</span><span>✧</span></div>
+            <h3>Find the Love</h3><p>Buka kartu dan temukan empat pasangan simbol yang sama. Setiap pasangan adalah satu alasan untuk tersenyum.</p>
+            <div class="memory-meta"><span>MATCHES <b id="match-count">0 / 4</b></span><span>MOVES <b id="move-count">0</b></span></div>
+            <div class="memory-board" id="memory-board" aria-label="Permainan mencocokkan kartu"></div>
+            <button class="button button-outline game-start" id="memory-reset">Acak kartu lagi <span>↻</span></button>
+            <p class="game-result" id="memory-result" aria-live="polite"></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="wish-section">
+        <div class="wish-inner">
+          <span class="eyebrow light-eyebrow"><i></i> A WISH JUST FOR YOU</span>
+          <div class="wish-stars">✦　✧　✦</div>
+          <h2>Semoga hal-hal<br>baik selalu <em>menemukanmu.</em></h2>
+          <p>Tekan tombol di bawah untuk mengambil satu harapan kecil hari ini.</p>
+          <button class="button button-gold" id="wish-button">Ambil harapan hari ini <span>✧</span></button>
+          <div class="wish-result" id="wish-result" aria-live="polite">Sebuah harapan baik sedang menunggumu…</div>
+        </div>
+      </section>
+
+      <section class="letter-section section-wrap section-space" id="letter">
+        <div class="letter-layout">
+          <div class="letter-side"><span class="eyebrow"><i></i> A LETTER FOR YOU</span><div class="letter-seal">♡</div><span class="letter-side-note">SINCERELY,<br>WITH LOVE.</span></div>
+          <div class="letter-paper">
+            <div class="paper-top"><span>UNTUK BUNDA TERCINTA</span><span>♡</span></div>
+            <h2>Ada yang ingin<br>aku <em>sampaikan.</em></h2>
+            <div class="letter-body" id="letter-body">
+              <p>Untuk Bunda tersayang,</p>
+              <p>Selamat ulang tahun. Terima kasih untuk setiap perhatian, kesabaran, nasihat, dan kasih sayang yang mungkin tidak selalu bisa aku balas dengan kata-kata.</p>
+              <p>Aku mungkin belum bisa memberikan banyak hal, tetapi aku selalu berharap bisa menjadi salah satu alasan Bunda tersenyum dan merasa bangga.</p>
+              <p>Semoga Bunda selalu diberi kesehatan, hati yang tenang, umur yang penuh keberkahan, serta kebahagiaan dalam setiap langkah. Semoga semua doa baik yang Bunda panjatkan kembali kepada Bunda dalam bentuk yang jauh lebih indah.</p>
+              <p>Terima kasih sudah menjadi Bunda. Aku sayang Bunda, hari ini, besok, dan seterusnya.</p>
+              <p class="letter-sign">Dengan penuh cinta,<br><em>Anakmu ♡</em></p>
+            </div>
+            <button class="text-button letter-more" id="letter-more">Baca surat sekali lagi <span>↗</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="finale-section">
+        <div class="finale-flower">✿</div><span class="eyebrow light-eyebrow">THE WORLD IS BETTER WITH YOU IN IT</span>
+        <h2>Happy Birthday,<br><em>our beloved Bunda.</em></h2>
+        <p>Semoga hari ini seindah hati Bunda. Terima kasih telah menjadi bagian paling hangat dari cerita kami.</p>
+        <button class="finale-button" id="celebrate-button">Celebrate this beautiful day <span>✦</span></button>
+        <div class="finale-foot"><span>MADE WITH LOVE, JUST FOR MOM</span><span>♡ &nbsp; ALWAYS YOURS</span></div>
+      </section>
+    </main>
+    <footer class="footer"><a href="#home" class="footer-brand">FOR MOM <span>♡</span></a><p>A little website, with a whole lot of love.</p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  </div>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto kenangan"><button class="lightbox-close" id="lightbox-close" aria-label="Tutup foto">×</button><img id="lightbox-image" alt="Foto kenangan diperbesar"><span class="lightbox-caption">A MOMENT TO KEEP FOREVER</span></div>
+  <div class="toast" id="toast" role="status"></div>
+  <div class="confetti-layer" id="confetti-layer" aria-hidden="true"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>
